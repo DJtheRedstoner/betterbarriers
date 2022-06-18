@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.djtheredstoner.betterbarriers.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "BarrierBlockMixin",
+    "SpriteAnimationMixin",
+    "WorldClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

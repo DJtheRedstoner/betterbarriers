@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "betterbarriers",
+  "version": "${version}",
+
+  "name": "Better Barriers",
+  "description": "Renders Barrier blocks in an improved way.",
+  "authors": [
+    "DJtheRedstoner"
+  ],
+  "contact": {
+    "sources": "https://github.com/DJtheRedstoner/betterbarriers"
+  },
+
+  "license": "MIT",
+  "icon": "assets/betterbarriers/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "me.djtheredstoner.betterbarriers.BetterBarriers::init"
+    ]
+  },
+  "mixins": [
+    "betterbarriers.mixins.json"
+  ],
+  "accessWidener": "betterbarriers.accesswidener",
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.18",
+    "java": ">=17"
+  }
+}
