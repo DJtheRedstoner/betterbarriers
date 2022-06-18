@@ -1,4 +1,6 @@
 # Better Barriers
+[Releases](https://github.com/DJtheRedstoner/betterbarriers/releases) |
+[Modrinth](https://modrinth.com/mod/betterbarriers)
 
 Renders Barrier blocks in an improved way.
 
