@@ -10,7 +10,7 @@ import net.minecraft.world.GameMode;
 
 public class BetterBarriers {
 
-    public static final Identifier BARRIER = new Identifier("betterbarriers", "barrier");
+    public static final Identifier BARRIER = new Identifier("betterbarriers", "block/barrier");
     public static boolean shouldRenderBarriers;
 
     public static void init() {

@@ -7,16 +7,12 @@ plugins {
 version = "1.0.0"
 group = "me.djtheredstoner"
 
-loom {
-    accessWidenerPath.set(file("src/main/resources/betterbarriers.accesswidener"))
-}
-
 dependencies {
-    minecraft("com.mojang:minecraft:1.19")
-    mappings("net.fabricmc:yarn:1.19+build.4:v2")
-    modImplementation("net.fabricmc:fabric-loader:0.14.8")
+    minecraft("com.mojang:minecraft:1.19.3")
+    mappings("net.fabricmc:yarn:1.19.3+build.5:v2")
+    modImplementation("net.fabricmc:fabric-loader:0.14.12")
 
-    modImplementation("net.fabricmc.fabric-api:fabric-api:0.56.0+1.19")
+    modImplementation("net.fabricmc.fabric-api:fabric-api:0.70.0+1.19.3")
 }
 
 tasks.compileJava {
